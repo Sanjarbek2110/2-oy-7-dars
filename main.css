@@ -1,0 +1,440 @@
+/* mulish-300 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/mulish-v13-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* mulish-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/mulish-v13-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* mulish-500 - latin */
+@font-face {
+font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 500;
+src: url('../fonts/mulish-v13-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* mulish-600 - latin */
+@font-face {
+font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+src: url('../fonts/mulish-v13-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* mulish-700 - latin */
+@font-face {
+font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+src: url('../fonts/mulish-v13-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* mulish-800 - latin */
+@font-face {
+font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 800;
+src: url('../fonts/mulish-v13-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* mulish-900 - latin */
+@font-face {
+font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 900;
+src: url('../fonts/mulish-v13-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Mulish', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    max-width: 1180px;
+    margin: auto;
+    width: 100%;
+}
+
+.header{
+    margin-bottom: 90px;
+    padding-top: 46px;
+}
+
+.header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header nav .logo{
+    display: flex;
+    align-items: center;
+    gap: 0 11px;
+    text-decoration: none;
+}
+
+.header nav .header_logo{
+    color: #233348;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.header nav .header_logo img{
+    width: 40px;
+    height: 40px;
+}
+
+.header nav ul{
+    display: flex;
+    gap: 0 40px;
+}
+
+.header nav ul li{
+    list-style: none;
+}
+
+.header nav ul li a{
+    color: #1f1534;
+    font-size: 18px;
+    font-weight: 400;
+    transition: .3s all ease;
+    opacity: 0.5;
+    line-height: 23px;
+    text-decoration: none;
+}
+
+.header nav ul li a:hover{
+    font-weight: 700;
+    opacity: 1;
+}
+
+.hero_block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.hero_content h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.hero_content p{
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 32px;
+    color: #7d7987;
+    margin-bottom: 35px;
+}
+
+.btn_hover{
+    padding: 15px 37px;
+    border-radius: 55px;
+    background: #458ff6;
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    font-weight: 700;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+    transition: .3s all ease-in-out;
+}
+
+.btn_hover:hover{
+    border: 1.4px solid #458ff6;
+    color: #458FF6;
+    background: #ffffff;
+}
+
+.hero_image img{
+    border: 2px dashed #c5c5c5;
+}
+
+.services_block{
+    display: flex;
+    flex-direction: column;
+    gap: 0 36px;
+}
+
+.services_content h2{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #000000;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.services_content p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #7d7987;
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.services_cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 33px;
+    gap: 40px 20px;
+}
+
+.services_cards .services_card{
+    width: 380px;
+    height: 380px;
+    padding: 68px 52px 30px 40px;
+    border-radius: 20px;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+    background: #E7E7E7;
+    transition: .3s all ease-in-out;
+}
+
+.services_cards .services_card:hover{
+    background: #5a98f2;
+
+    h3{
+        color: #ffffff;
+    }
+    
+    p{
+        color: #ffffff;
+    }
+}
+
+.services_cards .services_card img{
+    margin-bottom: 45px;
+}
+
+.services_cards .services_card h3{
+    font-size: 24px;
+    transition: .3s all ease-in-out;
+    font-weight: 700;
+    line-height: 56px;
+    color: #000000;
+}
+
+.services_cards .services_card p{
+    font-size: 16px;
+    transition: .3s all ease-in-out;
+    font-weight: 300;
+    line-height: 28px;
+    color: #7d7987;
+}
+
+.services_block button{
+    margin: 0 auto;
+    margin-bottom: 76px;
+}
+
+.info h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #000000;
+    margin-bottom: 75px;
+    text-align: center;
+}
+
+.info_block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 152px;
+}
+
+.info_block img{
+    border: 2px dashed #c5c5c5;
+}
+
+.info_block .info_content h3{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #000000;
+    margin-bottom: 62px;
+}
+
+.info_block .info_content p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #7d7987;
+    margin-bottom: 41px;
+}
+
+.testimonial h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #000000;
+    margin-bottom: 110px;
+    text-align: center;
+}
+
+.testimonial_block{
+    display: flex;
+    justify-content: space-between;
+    gap: 0 20px;
+    margin-bottom: 55px;
+}
+
+.testimonial_card{
+    width: 380px;
+    border-radius: 20px;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+    background: #ffffff;
+}
+
+.testimonial_card .about{
+    padding: 30px 0 30px 30px;
+}
+
+.testimonial_card .about h3{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.testimonial_card .about p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #7d7987;
+    margin-bottom: 18px;
+}
+
+.testimonial_card .about a{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #4089ed;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0 15px;
+}
+
+.testimonial_card .about a span{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #4089ed;
+    width: 14.14px;
+}
+
+.testimonial .bt{
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial .btn_hover{
+    margin: 0 auto;
+    margin-bottom: 230px;
+}
+
+.footer{
+    background: linear-gradient(211.68deg, rgb(103, 195, 243) 8.549%,rgb(90, 152, 242) 70.494%);
+    padding: 160px 0 130px 0;
+}
+
+.footer_block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .footer_content{
+    display: flex;
+    flex-direction: column;
+    gap: 17px 0;
+}
+
+.footer .footer_content a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0 11px;
+}
+
+.footer .footer_content a .header_logo{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.footer .footer_content p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.footer_links{
+    display: flex;
+    justify-content: space-between;
+    gap: 0 170px;
+}
+
+.footer_links h3{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.footer_links ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+}
+
+.footer_links ul li{
+    list-style: none;
+}
+
+.footer_links ul li a{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 23px;
+    text-decoration: none;
+    transition: .3s all ease;
+}
+
+.footer_links ul li a:hover{
+    color: #000;
+    font-weight: 700;
+}
